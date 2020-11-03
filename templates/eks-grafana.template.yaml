@@ -15,6 +15,7 @@ Metadata:
         Parameters:
           - KubeClusterName
           - Namespace
+          - PrometheusURL
           - OverrideValues
     ParameterLabels:
       KubeClusterName:
@@ -23,6 +24,8 @@ Metadata:
         default: Override values
       Namespace:
         default: Namespace
+      PrometheusURL:
+        default: Prometheus URL
 Parameters:
   KubeClusterName:
     Type: String
