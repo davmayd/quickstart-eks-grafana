@@ -15,7 +15,7 @@ taskcat_outputs/
 # docs2.0
 /images/
 docs/generated/
-/index.html
+docs/index.html
 
 # quickstart build
 /functions/packages

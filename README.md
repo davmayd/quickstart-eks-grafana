@@ -2,7 +2,7 @@
 
 TODO: init project by running the following from a Linux/MACOS host:
 
-- [ ] init project `PROJECT_NAME="Company Product" QSID=qs-someid make init`
+- [x] init project `PROJECT_NAME="Company Product" QSID=qs-someid make init`
 - [ ] setup dev environment `make dev && pyenv shell eks-quickstart-dev`. For each new shell you use, you will need to re-run `pyenv shell eks-quickstart-dev`.
 - [ ] deploy an eks cluster to use during development `CLUSTER_NAME=eks-dev AWS_REGION=us-west-2 AWS_PROFILE=my-aws-cli-profile make eks`
 - [ ] author deployment template `templates/eks-PRODUCT_NAME.template.yaml`
@@ -20,9 +20,9 @@ TODO: init project by running the following from a Linux/MACOS host:
 - [ ] add parameter and submodule to the EKS marketplace Quick Start
 - [ ] remove this checklist from `README.md`
 
-# PPNAME on Amazon EKS
+# Grafana on Amazon EKS
 
-![Quick Start architecture for PPNAME on Amazon EKS](docs/images/architecture_diagram.png)
+![Quick Start architecture for Grafana on Amazon EKS](docs/images/architecture_diagram.png)
 
 This Quick Start offers three deployment options:
 
@@ -32,7 +32,7 @@ This Quick Start offers three deployment options:
 
 [Deploy into an existing EKS cluster](todo.existingclusterlink)
 
-For architectural details, best practices, step-by-step instructions, and customization options, see the [deployment guide](https://aws-quickstart.github.io/PPNAMELD/).
+For architectural details, best practices, step-by-step instructions, and customization options, see the [deployment guide](https://aws-quickstart.github.io/grafana/).
 
 To post feedback, submit feature ideas, or report bugs, use the **Issues** section of this GitHub repo.
 If you'd like to submit code for this Quick Start, please review the [AWS Quick Start Contributor's Kit](https://aws-quickstart.github.io/).

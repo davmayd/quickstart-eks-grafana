@@ -1,8 +1,8 @@
 project:
-  name: quickstart-eks-PPNAMELD
+  name: quickstart-eks-grafana
   owner: quickstart-eng@amazon.com
   regions: ["us-west-2"]
-  template: templates/eks-PPNAMELD.template.yaml
+  template: templates/eks-grafana.template.yaml
   parameters:
     Namespace: [taskcat_random-string]
 tests:
