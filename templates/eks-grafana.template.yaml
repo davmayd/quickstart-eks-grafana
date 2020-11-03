@@ -95,12 +95,12 @@ Resources:
                 path: /var/lib/grafana/dashboards/default
         dashboards:
           default:
-            all-nodes:
-              gnetId: 3131
-              revision: 1
+            node-exporter:
+              gnetId: 1860
+              revision: 21
               datasource: Prometheus
-            all-pods:
-              gnetId: 3146
+            cluster:
+              gnetId: 8685
               revision: 1
               datasource: Prometheus
 Outputs:
