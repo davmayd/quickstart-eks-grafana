@@ -8,6 +8,6 @@ WARNING: When you set *Rollback on failure* to *Disabled*, you continue to incur
 == Troubleshooting
 For general EKS troubleshooting steps see the https://aws-quickstart.github.io/quickstart-amazon-eks/[EKS Quick Start documentation].
 
-For {partner-product-short-name} specific troubleshooting see https://TODO[{partner-product-short-name} troubleshooting documentation].
+For {partner-product-short-name} specific troubleshooting see https://https://grafana.com/docs/grafana/latest/troubleshooting/[{partner-product-short-name} troubleshooting documentation].
 
 For additional information, see https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html[Troubleshooting AWS CloudFormation^] on the AWS website.
