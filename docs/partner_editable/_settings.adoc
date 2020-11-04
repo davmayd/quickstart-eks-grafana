@@ -15,9 +15,9 @@
 :disable_regions:
 :disable_licenses:
 //links
-:launch_new_vpc: https://TODO
-:launch_existing_vpc: https://TODO
-:launch_existing_cluster: https://TODO
-:template_new_vpc: https://TODO
-:template_existing_vpc: https://TODO
-:template_existing_cluster: https://TODO
+:launch_new_vpc: https://fwd.aws/QwWdd
+:launch_existing_vpc: https://fwd.aws/DjnpQ
+:launch_existing_cluster: https://fwd.aws/pDng5
+:template_new_vpc: https://fwd.aws/DgqPB
+:template_existing_vpc: https://fwd.aws/mbD5g
+:template_existing_cluster: https://fwd.aws/9R7z8
