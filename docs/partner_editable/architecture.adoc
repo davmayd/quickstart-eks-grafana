@@ -1,2 +1,2 @@
-* The Grafana console has a deployment that contains a single pod with an attached Amazon EBS volume.
+* The Grafana console has a deployment that contains a single pod with an attached Amazon Elastic Block Store (Amazon EBS) volume.
 * An Elastic Load Balancer that handles incoming connections.

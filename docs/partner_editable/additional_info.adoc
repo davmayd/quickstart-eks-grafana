@@ -2,7 +2,7 @@
 
 NOTE: These steps must be executed from a network that has access to the Kubernetes API, as configured by the EKS public access endpoint and Kubernetes API public access CIDR parameters. For more information, see https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html[Installing Kubectl^]. If you enabled the optional bastion host, you can connect to it by using SSH. Use the key pair that you specified during deployment and the IP address from the *Outputs* tab of the AWS CloudFormation stack. The bastion host already has Kubectl installed and configured so that it connects to the cluster. To test the CLI, connect to the cluster, and run the following command.
 
-. In the AWS CloudFormation console, choose the *Outputs* tabm and retrieve the URL from the /*GrafanaURL* output.
+. In the AWS CloudFormation console, choose the *Outputs* tab and retrieve the URL from the /*GrafanaURL* output.
 . Retrieve the password for the Grafana UI using the following Kubectl command:
 ```
 `kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo`
