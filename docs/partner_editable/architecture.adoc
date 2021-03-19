@@ -1,3 +1,3 @@
 * A Kubernetes namespace for Grafana.
 * A Classic Load Balancer to handle incoming connections.
-* A Grafana console that contains a single Grafana pod with an attached Amazon Elastic Block Store (Amazon EBS) volume.
+* A Grafana console containing a single Grafana pod with an attached Amazon Elastic Block Store (Amazon EBS) volume.
