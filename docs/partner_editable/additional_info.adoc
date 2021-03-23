@@ -23,4 +23,8 @@ For Grafana security precautions, see https://grafana.com/docs/grafana/latest/ad
 == Other useful information
 //Provide any other information of interest to users, especially focusing on areas where AWS or cloud usage differs from on-premises usage.
 //TODO Missing info here:
-_Add any other details that will help the customer use the software on AWS._
+
+* https://aws.amazon.com/eks/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&eks-blogs.sort-by=item.additionalFields.createdDate&eks-blogs.sort-order=desc[Amazon Elastic Kubernetes Service^]
+* https://aws.amazon.com/cloudformation/[AWS CloudFormation^]
+* https://kubernetes.io/[Kubernetes^]
+* https://grafana.com/[Grafana Labs^]
