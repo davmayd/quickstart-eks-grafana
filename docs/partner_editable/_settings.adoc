@@ -6,7 +6,7 @@
 :partner-product-short-name: Grafana
 // If there's no partner, comment partner-company-name and partner-contributors.
 //:partner-company-name: Example Company Name, Ltd.
-:doc-month: April
+:doc-month: March
 :doc-year: 2021
 //:partner-contributors: Shuai Ye, Michael McConnell, and John Smith, {partner-company-name}
 :quickstart-contributors: Sumit Joshi and Jay McConnell, AWS Quick Start team
