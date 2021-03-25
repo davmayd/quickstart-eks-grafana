@@ -32,7 +32,7 @@ Parameters:
     Description: Name of the Amazon EKS cluster to deploy Grafana into.
   OverrideValues:
     Type: String
-    Description: (Optional) URI to a file containing values to pass to the Helm install. Can be http(s):// or s3://.
+    Description: (Optional) URI to a file containing custom values to pass to the Helm install. Can be `http(s)://` or `s3://`.
     Default: ''
   Namespace:
     Type: String
