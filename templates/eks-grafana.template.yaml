@@ -11,7 +11,7 @@ Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:
       - Label:
-          default: Prometheus for Amazon EKS configuration
+          default: Grafana for Amazon EKS configuration
         Parameters:
           - KubeClusterName
           - Namespace
