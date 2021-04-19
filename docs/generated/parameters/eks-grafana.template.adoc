@@ -1,10 +1,10 @@
 
-.Prometheus for EKS configuration
+.Grafana for Amazon EKS configuration
 [width="100%",cols="16%,11%,73%",options="header",]
 |===
-|Parameter label (name) |Default value|Description|EKS cluster name
-(`KubeClusterName`)|`**__Requires input__**`|Name of the EKS cluster to deploy grafana into.|Namespace
-(`Namespace`)|`grafana`|[Optional] Kubernetes namespace to deploy grafana into.|Prometheus URL
-(`PrometheusURL`)|`http://prometheus-server.prometheus.svc.cluster.local`|[Optional] URL for prometheus, defaults to in-cluster prometheus deployed into the prometheus namespace.|Override values
-(`OverrideValues`)|`**__Blank string__**`|(Optional) URI to a file containing values to pass to the helm install. Can be http(s):// or s3://.
+|Parameter label (name) |Default value|Description|Amazon EKS cluster name
+(`KubeClusterName`)|`**__Requires input__**`|Name of the Amazon EKS cluster to deploy Grafana into.|Namespace
+(`Namespace`)|`grafana`|(Optional) Kubernetes namespace to deploy Grafana into.|Prometheus URL
+(`PrometheusURL`)|`http://prometheus-server.prometheus.svc.cluster.local`|(Optional) URL for Prometheus. Defaults to the in-cluster Prometheus deployed into the Prometheus namespace.|Override values
+(`OverrideValues`)|`**__Blank string__**`|(Optional) URI to a file containing custom values to pass to the Helm install. Can be `http(s)://` or `s3://`.
 |===

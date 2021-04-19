@@ -1,2 +1,4 @@
-* The the grafana console consists of a Deployment containing a single pod with an EBS volume attached.
-* An Elastic Load Balancer which handles inoming connections.
+* A Kubernetes namespace for Grafana.
+* A Classic Load Balancer to route traffic to the Grafana pod.
+* A Grafana deployment containing a single pod.
+* An Amazon Elastic Block Store (Amazon EBS) volume.
