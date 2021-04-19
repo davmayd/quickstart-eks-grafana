@@ -105,4 +105,4 @@ Resources:
               datasource: Prometheus
 Outputs:
   GrafanaReleaseName:
-    Value: !GetAtt GrafanaHelmChart.Name
+    Value: !Ref GrafanaHelmChart
