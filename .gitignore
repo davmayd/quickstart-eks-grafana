@@ -20,3 +20,5 @@ docs/index.html
 # quickstart build
 /functions/packages
 /output
+.pre-commit-config.yaml
+.editorconfig
