@@ -62,7 +62,7 @@ Resources:
     Properties:
       ClusterID: !Ref KubeClusterName
       Namespace: !Ref Namespace
-      Chart: stable/grafana
+      Chart: grafana/grafana
       Name: grafana
       ValueOverrideURL: !If [SupplyOverrides, !Ref OverrideValues, !Ref 'AWS::NoValue']
       ValueYaml: !Sub |
