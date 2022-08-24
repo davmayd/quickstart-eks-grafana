@@ -55,7 +55,6 @@ Resources:
   GrafanaHelmChart:
     Type: AWSQS::Kubernetes::Helm
     DependsOn: GrafanaNamespace
-    Metadata: { cfn-lint: { config: { ignore_checks: [ E3012 ] } } }
     Properties:
       ClusterID: !Ref KubeClusterName
       Namespace: !Ref Namespace
