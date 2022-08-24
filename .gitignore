@@ -5,7 +5,7 @@
 .idea/
 out/
 /.venv/
-/venv/q
+/venv/
 
 # Taskcat
 .taskcat_overrides.yml
