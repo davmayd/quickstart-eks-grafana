@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: Deploys the Grafana Helm chart into an existing Kubernetes cluster (qs-1qde65hno)
+Description: Deploys the Grafana Helm chart into an existing Kubernetes cluster. (qs-1qde65hno)
 Metadata:
   LintSpellExclude:
     - grafana
