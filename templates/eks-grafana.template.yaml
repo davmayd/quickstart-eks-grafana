@@ -1,10 +1,7 @@
-AWSTemplateFormatVersion: "2010-09-09"
-Description: "Deploys the Grafana Helm chart into an existing Kubernetes cluster (qs-1qde65hno)"
+AWSTemplateFormatVersion: 2010-09-09
+Description: Deploys the Grafana Helm chart into an existing Kubernetes cluster. (qs-1qde65hno)
 Metadata:
   LintSpellExclude:
-    - Kubernetes
-    - namespace
-    - Namespace
     - grafana
   QuickStartDocumentation:
     EntrypointName: Launch into an existing Amazon EKS cluster
@@ -46,25 +43,25 @@ Conditions:
   SupplyOverrides: !Not [!Equals [!Ref OverrideValues, '']]
 Resources:
   GrafanaNamespace:
-    Type: "AWSQS::Kubernetes::Resource"
+    Type: AWSQS::Kubernetes::Resource
     Properties:
       ClusterName: !Ref KubeClusterName
-      Namespace: 'kube-system'
+      Namespace: kube-system
       Manifest: !Sub |
         kind: Namespace
         apiVersion: v1
         metadata:
           name: ${Namespace}
   GrafanaHelmChart:
-    Type: "AWSQS::Kubernetes::Helm"
+    Type: AWSQS::Kubernetes::Helm
     DependsOn: GrafanaNamespace
-    Metadata: { cfn-lint: { config: { ignore_checks: [ E3012 ] } } }
     Properties:
       ClusterID: !Ref KubeClusterName
       Namespace: !Ref Namespace
+      Repository: https://grafana.github.io/helm-charts
       Chart: grafana/grafana
       Name: grafana
-      ValueOverrideURL: !If [SupplyOverrides, !Ref OverrideValues, !Ref 'AWS::NoValue']
+      ValueOverrideURL: !If [SupplyOverrides, !Ref OverrideValues, !Ref AWS::NoValue]
       ValueYaml: !Sub |
         persistence:
           type: pvc
